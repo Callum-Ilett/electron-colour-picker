@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "name": "electron-colour-picker",
+  "description": "My application description",
+  "version": "1.0.0",
+  "author": "Callum Ilett <cilett99@gmail.com>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-plugin-styled-components": "^1.12.0",
+    "electron-serve": "^1.1.0",
+    "electron-store": "^7.0.2",
+    "randomcolor": "^0.6.2",
+    "react-toastify": "^7.0.4",
+    "styled-components": "^5.2.3",
+    "tinycolor2": "^1.4.2",
+    "tinygradient": "^1.1.4",
+    "use-image-color": "^0.0.9",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "@types/randomcolor": "^0.5.5",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.9",
+    "@types/tinycolor2": "^1.4.2",
+    "@types/uuid": "^8.3.0",
+    "electron": "^12.0.2",
+    "electron-builder": "^22.10.5",
+    "next": "^10.1.3",
+    "nextron": "^6.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.2.3"
+  }
+}
